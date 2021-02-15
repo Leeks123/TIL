@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Swift basic syntax3 | gnoeSnowKeel</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    
+    <meta name="description" content="log for me">
+    <meta name="theme-color" content="#cccccc">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/TIL/assets/css/0.styles.595ac964.css" as="style"><link rel="preload" href="/TIL/assets/js/app.2712e491.js" as="script"><link rel="preload" href="/TIL/assets/js/2.c9de64f5.js" as="script"><link rel="preload" href="/TIL/assets/js/88.379f6009.js" as="script"><link rel="prefetch" href="/TIL/assets/js/10.4d120f70.js"><link rel="prefetch" href="/TIL/assets/js/11.9b84cff0.js"><link rel="prefetch" href="/TIL/assets/js/12.f0531710.js"><link rel="prefetch" href="/TIL/assets/js/13.5575ed13.js"><link rel="prefetch" href="/TIL/assets/js/14.f7491162.js"><link rel="prefetch" href="/TIL/assets/js/15.52ba41b0.js"><link rel="prefetch" href="/TIL/assets/js/16.fc35ff1d.js"><link rel="prefetch" href="/TIL/assets/js/17.498d6662.js"><link rel="prefetch" href="/TIL/assets/js/18.b8b40c44.js"><link rel="prefetch" href="/TIL/assets/js/19.c8d52b5f.js"><link rel="prefetch" href="/TIL/assets/js/20.1a685c26.js"><link rel="prefetch" href="/TIL/assets/js/21.a3c5598b.js"><link rel="prefetch" href="/TIL/assets/js/22.0d3d5a40.js"><link rel="prefetch" href="/TIL/assets/js/23.8577d9d6.js"><link rel="prefetch" href="/TIL/assets/js/24.b9c3520e.js"><link rel="prefetch" href="/TIL/assets/js/25.adc90991.js"><link rel="prefetch" href="/TIL/assets/js/26.3af70bc9.js"><link rel="prefetch" href="/TIL/assets/js/27.17b101f7.js"><link rel="prefetch" href="/TIL/assets/js/28.d11ff95a.js"><link rel="prefetch" href="/TIL/assets/js/29.04699700.js"><link rel="prefetch" href="/TIL/assets/js/3.866d2281.js"><link rel="prefetch" href="/TIL/assets/js/30.c0007bc2.js"><link rel="prefetch" href="/TIL/assets/js/31.fd5a7ef4.js"><link rel="prefetch" href="/TIL/assets/js/32.6b397530.js"><link rel="prefetch" href="/TIL/assets/js/33.5c1471dd.js"><link rel="prefetch" href="/TIL/assets/js/34.15c3823e.js"><link rel="prefetch" href="/TIL/assets/js/35.191d8262.js"><link rel="prefetch" href="/TIL/assets/js/36.42bcb315.js"><link rel="prefetch" href="/TIL/assets/js/37.022482e5.js"><link rel="prefetch" href="/TIL/assets/js/38.f4672e9e.js"><link rel="prefetch" href="/TIL/assets/js/39.36cdfa17.js"><link rel="prefetch" href="/TIL/assets/js/4.2ad53764.js"><link rel="prefetch" href="/TIL/assets/js/40.20e502b9.js"><link rel="prefetch" href="/TIL/assets/js/41.1503a9fc.js"><link rel="prefetch" href="/TIL/assets/js/42.588082f8.js"><link rel="prefetch" href="/TIL/assets/js/43.f9713992.js"><link rel="prefetch" href="/TIL/assets/js/44.a46926b1.js"><link rel="prefetch" href="/TIL/assets/js/45.2febb119.js"><link rel="prefetch" href="/TIL/assets/js/46.6b9ba69f.js"><link rel="prefetch" href="/TIL/assets/js/47.92757916.js"><link rel="prefetch" href="/TIL/assets/js/48.66be20ad.js"><link rel="prefetch" href="/TIL/assets/js/49.8ac90cdb.js"><link rel="prefetch" href="/TIL/assets/js/5.76ea75ea.js"><link rel="prefetch" href="/TIL/assets/js/50.c64c7b72.js"><link rel="prefetch" href="/TIL/assets/js/51.d86ee05d.js"><link rel="prefetch" href="/TIL/assets/js/52.6f19896a.js"><link rel="prefetch" href="/TIL/assets/js/53.578b52e5.js"><link rel="prefetch" href="/TIL/assets/js/54.372e33f4.js"><link rel="prefetch" href="/TIL/assets/js/55.eb90f680.js"><link rel="prefetch" href="/TIL/assets/js/56.67d23043.js"><link rel="prefetch" href="/TIL/assets/js/57.b6e078fb.js"><link rel="prefetch" href="/TIL/assets/js/58.32f5b4d6.js"><link rel="prefetch" href="/TIL/assets/js/59.e5131836.js"><link rel="prefetch" href="/TIL/assets/js/6.e416f727.js"><link rel="prefetch" href="/TIL/assets/js/60.1891b756.js"><link rel="prefetch" href="/TIL/assets/js/61.93f9cd01.js"><link rel="prefetch" href="/TIL/assets/js/62.adf35ea3.js"><link rel="prefetch" href="/TIL/assets/js/63.ec268c56.js"><link rel="prefetch" href="/TIL/assets/js/64.53f40b78.js"><link rel="prefetch" href="/TIL/assets/js/65.5584af86.js"><link rel="prefetch" href="/TIL/assets/js/66.b348db83.js"><link rel="prefetch" href="/TIL/assets/js/67.77ddc5d5.js"><link rel="prefetch" href="/TIL/assets/js/68.97c51d80.js"><link rel="prefetch" href="/TIL/assets/js/69.8c972155.js"><link rel="prefetch" href="/TIL/assets/js/7.f931c09f.js"><link rel="prefetch" href="/TIL/assets/js/70.6e7b2437.js"><link rel="prefetch" href="/TIL/assets/js/71.ab2378a6.js"><link rel="prefetch" href="/TIL/assets/js/72.c21c5585.js"><link rel="prefetch" href="/TIL/assets/js/73.76ed34f1.js"><link rel="prefetch" href="/TIL/assets/js/74.c739fdb2.js"><link rel="prefetch" href="/TIL/assets/js/75.4b975502.js"><link rel="prefetch" href="/TIL/assets/js/76.d6a0e5bf.js"><link rel="prefetch" href="/TIL/assets/js/77.fa10d30c.js"><link rel="prefetch" href="/TIL/assets/js/78.c1dbc885.js"><link rel="prefetch" href="/TIL/assets/js/79.f53a2f88.js"><link rel="prefetch" href="/TIL/assets/js/8.cf643c23.js"><link rel="prefetch" href="/TIL/assets/js/80.d94f3124.js"><link rel="prefetch" href="/TIL/assets/js/81.a27b88aa.js"><link rel="prefetch" href="/TIL/assets/js/82.4dfb2d40.js"><link rel="prefetch" href="/TIL/assets/js/83.73555d20.js"><link rel="prefetch" href="/TIL/assets/js/84.68b0bf46.js"><link rel="prefetch" href="/TIL/assets/js/85.ce972b60.js"><link rel="prefetch" href="/TIL/assets/js/86.31bcbddd.js"><link rel="prefetch" href="/TIL/assets/js/87.6057b341.js"><link rel="prefetch" href="/TIL/assets/js/89.dbe46ae2.js"><link rel="prefetch" href="/TIL/assets/js/9.27944c69.js"><link rel="prefetch" href="/TIL/assets/js/90.b3544917.js"><link rel="prefetch" href="/TIL/assets/js/91.edb68986.js"><link rel="prefetch" href="/TIL/assets/js/92.48920512.js"><link rel="prefetch" href="/TIL/assets/js/93.fa651c2e.js">
+    <link rel="stylesheet" href="/TIL/assets/css/0.styles.595ac964.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/TIL/" class="home-link router-link-active"><!----> <span class="site-name">gnoeSnowKeel</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/TIL/til/" class="nav-link router-link-active">
+  TIL
+</a></div><div class="nav-item"><a href="/TIL/blog/" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="https://github.com/Leeks123" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/TIL/til/" class="nav-link router-link-active">
+  TIL
+</a></div><div class="nav-item"><a href="/TIL/blog/" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="https://github.com/Leeks123" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>JS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>TS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>HTML/CSS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>React</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>NodeJS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>MongoDB</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>GraphQL</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Python</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Ruby</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>CPP</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Swift</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>basic syntax</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/TIL/til/contents/swift/basicSyntax1.html" class="sidebar-link">Swift basic syntax1</a></li><li><a href="/TIL/til/contents/swift/basicSyntax2.html" class="sidebar-link">Swift basic syntax2</a></li><li><a href="/TIL/til/contents/swift/basicSyntax3.html" aria-current="page" class="active sidebar-link">Swift basic syntax3</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#상속" class="sidebar-link">상속</a></li><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#인스턴스의-생성과-소멸" class="sidebar-link">인스턴스의 생성과 소멸</a></li><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#옵셔널-체이닝" class="sidebar-link">옵셔널 체이닝</a></li><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#타입캐스팅" class="sidebar-link">타입캐스팅</a></li><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#assert와-guard" class="sidebar-link">assert와 guard</a></li><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#익스텐션" class="sidebar-link">익스텐션</a></li><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#오류처리" class="sidebar-link">오류처리</a></li><li class="sidebar-sub-header"><a href="/TIL/til/contents/swift/basicSyntax3.html#고차함수" class="sidebar-link">고차함수</a></li></ul></li></ul></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>iOS</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="swift-basic-syntax3"><a href="#swift-basic-syntax3" class="header-anchor">#</a> Swift basic syntax3</h1> <h2 id="상속"><a href="#상속" class="header-anchor">#</a> 상속</h2> <ul><li>스위프트의 상속은 클래스, 프로토콜에서 가능</li> <li>다중 상속 불가</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">class</span> 이름<span class="token punctuation">:</span> 부모클래스 이름 <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> name<span class="token punctuation">:</span> <span class="token builtin">String</span> <span class="token operator">=</span> <span class="token string">&quot;&quot;</span>
+  
+  <span class="token keyword">func</span> <span class="token function">selfIntroduce</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;저는 <span class="token interpolation"><span class="token delimiter variable">\(</span>name<span class="token delimiter variable">)</span></span>입니다&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token keyword">final</span> <span class="token keyword">func</span> <span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;Hello&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// final 키워드를 통해 자식클래스에서 재정의 불가</span>
+  
+  <span class="token comment">// 타입 메서드 - 재정의 불가</span>
+  <span class="token keyword">static</span> <span class="token keyword">func</span> <span class="token function">typeMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;type method - static&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// 재정의 가능 메서드</span>
+  <span class="token keyword">class</span> <span class="token class-name">func</span> <span class="token function">classMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;type method - class&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// final class라고 표현하면 static과 동일</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Student</span><span class="token punctuation">:</span> <span class="token builtin">Person</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> major<span class="token punctuation">:</span> <span class="token builtin">String</span> <span class="token operator">=</span> <span class="token string">&quot;&quot;</span>
+  
+  <span class="token keyword">override</span> <span class="token keyword">func</span> <span class="token function">selfIntroduce</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;저는 <span class="token interpolation"><span class="token delimiter variable">\(</span>name<span class="token delimiter variable">)</span></span>이고, 전공은 <span class="token interpolation"><span class="token delimiter variable">\(</span>major<span class="token delimiter variable">)</span></span>입니다&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token keyword">override</span> <span class="token keyword">class</span> <span class="token class-name">func</span> <span class="token function">classMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;overriden type method - class&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="인스턴스의-생성과-소멸"><a href="#인스턴스의-생성과-소멸" class="header-anchor">#</a> 인스턴스의 생성과 소멸</h2> <h3 id="이니셜라이저"><a href="#이니셜라이저" class="header-anchor">#</a> 이니셜라이저</h3> <p>스위프트의 모든 인스턴스는 초기화와 동시에 모든 프로퍼티에 유효한 값이 할당되어 있어야 함. 프로퍼티에 미리 기본값을 할당해두면 인스턴스가 생성됨과 동시에 초기값을 지니게 됨</p> <p>기본값 지정이 어려운 경우 이니셜라이저를 통해 초기값 전달 가능</p> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> name<span class="token punctuation">:</span> <span class="token builtin">String</span>
+  <span class="token keyword">var</span> age<span class="token punctuation">:</span> <span class="token builtin">Int</span>
+  <span class="token keyword">var</span> nickName<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token operator">?</span>
+  
+  <span class="token keyword">convenience</span> <span class="token keyword">init</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">,</span> age<span class="token punctuation">:</span><span class="token builtin">Int</span><span class="token punctuation">,</span> nickName<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">//self.name = name</span>
+    <span class="token comment">//self.age = age</span>
+    <span class="token comment">// 자기 자신의 이니셜라이저 호출 가능</span>
+    <span class="token keyword">self</span><span class="token punctuation">.</span><span class="token keyword">init</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span> name<span class="token punctuation">,</span> age<span class="token punctuation">:</span> age<span class="token punctuation">)</span>
+    <span class="token keyword">self</span><span class="token punctuation">.</span>nickName <span class="token operator">=</span> nickName
+  <span class="token punctuation">}</span>
+  
+  <span class="token comment">// 기본값 설정이 꼭 필요하지 않다면 옵셔널을 활용</span>
+  <span class="token keyword">init</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">,</span> age<span class="token punctuation">:</span><span class="token builtin">Int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">self</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+    <span class="token keyword">self</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> hana<span class="token punctuation">:</span> <span class="token builtin">Person</span> <span class="token operator">=</span> <span class="token function">Person</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span> <span class="token string">&quot;hana&quot;</span><span class="token punctuation">,</span> age<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span> nickName<span class="token punctuation">:</span> <span class="token string">&quot;하나&quot;</span><span class="token punctuation">)</span>
+</code></pre></div><p><strong>실패 가능한 이니셜라이저</strong></p> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">class</span> <span class="token class-name">Person2</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> name<span class="token punctuation">:</span> <span class="token builtin">String</span>
+  <span class="token keyword">var</span> age<span class="token punctuation">:</span> <span class="token builtin">Int</span>
+  <span class="token keyword">var</span> nickName<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token operator">?</span>
+  
+  <span class="token keyword">init</span><span class="token operator">?</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">,</span> age<span class="token punctuation">:</span> <span class="token builtin">Int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token number">120</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token boolean">false</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token constant">nil</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> name<span class="token punctuation">.</span>characters<span class="token punctuation">.</span><span class="token builtin">count</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token constant">nil</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token keyword">self</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+    <span class="token keyword">self</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> john<span class="token punctuation">:</span> <span class="token builtin">Person2</span><span class="token operator">?</span> <span class="token operator">=</span> <span class="token function">Person2</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span><span class="token string">&quot;john&quot;</span><span class="token punctuation">,</span> age<span class="token punctuation">:</span><span class="token number">23</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="디이니셜라이저"><a href="#디이니셜라이저" class="header-anchor">#</a> 디이니셜라이저</h3> <p>클래스의 인스턴스가 메모리에서 해제되는 시점에 호출</p> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">class</span> <span class="token class-name">Person3</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> name<span class="token punctuation">:</span> <span class="token builtin">String</span>
+  <span class="token keyword">var</span> age<span class="token punctuation">:</span> <span class="token builtin">Int</span>
+  
+  <span class="token keyword">init</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">,</span> age<span class="token punctuation">:</span><span class="token builtin">Int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">self</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+    <span class="token keyword">self</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age
+  <span class="token punctuation">}</span>
+  <span class="token keyword">deinit</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="옵셔널-체이닝"><a href="#옵셔널-체이닝" class="header-anchor">#</a> 옵셔널 체이닝</h2> <p>옵셔널 요소 내부의 프로퍼티로 또다시 옵셔널이 연속적으로 연결되는 경우 유용하게 사용</p> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> name<span class="token punctuation">:</span> <span class="token builtin">String</span>
+  <span class="token keyword">var</span> job<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token operator">?</span>
+  <span class="token keyword">var</span> home<span class="token punctuation">:</span> <span class="token builtin">Apartment</span><span class="token operator">?</span>
+  
+  <span class="token keyword">init</span><span class="token punctuation">(</span>name<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">self</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Apartment</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> buildingNumber<span class="token punctuation">:</span> <span class="token builtin">String</span>
+  <span class="token keyword">var</span> roomNumber<span class="token punctuation">:</span> <span class="token builtin">String</span>
+  <span class="token keyword">var</span> `<span class="token keyword">guard</span>`<span class="token punctuation">:</span> <span class="token builtin">Person</span><span class="token operator">?</span>
+  <span class="token keyword">var</span> owner<span class="token punctuation">:</span> <span class="token builtin">Person</span><span class="token operator">?</span>
+  
+  <span class="token keyword">init</span><span class="token punctuation">(</span>dong<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">,</span> ho<span class="token punctuation">:</span> <span class="token builtin">String</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    buildingNumber <span class="token operator">=</span> dong
+    roomNumber <span class="token operator">=</span> ho
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">guardJobWithOptionalChaining</span><span class="token punctuation">(</span>owner<span class="token punctuation">:</span> <span class="token builtin">Person</span><span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token keyword">let</span> guardJob <span class="token operator">=</span> owner<span class="token operator">?</span><span class="token punctuation">.</span>home<span class="token operator">?</span><span class="token punctuation">.</span><span class="token keyword">guard</span><span class="token operator">?</span><span class="token punctuation">.</span>job <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;우리집 경비원의 직업은 <span class="token interpolation"><span class="token delimiter variable">\(</span>guardJob<span class="token delimiter variable">)</span></span>입니다&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;우리집 경비원은 직업이 없어요&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="nil-병합-연산자"><a href="#nil-병합-연산자" class="header-anchor">#</a> nil 병합 연산자</h3> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">var</span> guardJob<span class="token punctuation">:</span> <span class="token builtin">String</span>
+
+<span class="token comment">// x ?? y : x가 nil이라면 y를 할당하라</span>
+guardJob <span class="token operator">=</span> yagom<span class="token operator">?</span><span class="token punctuation">.</span>home<span class="token operator">?</span><span class="token punctuation">.</span><span class="token keyword">guard</span><span class="token operator">?</span><span class="token punctuation">.</span>job <span class="token operator">?</span><span class="token operator">?</span> <span class="token string">&quot;슈퍼맨&quot;</span>
+<span class="token function">print</span><span class="token punctuation">(</span>guardJob<span class="token punctuation">)</span> <span class="token comment">// 슈퍼맨</span>
+</code></pre></div><h2 id="타입캐스팅"><a href="#타입캐스팅" class="header-anchor">#</a> 타입캐스팅</h2> <p>스위프트의 타입캐스팅은 인스턴스의 타입을 확인하는 용도 또는 클래스의 인스턴스를 부모 혹은 자식 클래스 타입으로 사용할 수 있는지 확인하는 용도로 사용</p> <p><code>is</code> , <code>as</code> 를 사용</p> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">class</span> <span class="token class-name">Student</span><span class="token punctuation">:</span> <span class="token builtin">Person</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">class</span> <span class="token class-name">UnivStudent</span><span class="token punctuation">:</span> <span class="token builtin">Student</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> me<span class="token punctuation">:</span> <span class="token builtin">Person</span> <span class="token operator">=</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">var</span> hana<span class="token punctuation">:</span> <span class="token builtin">Student</span> <span class="token operator">=</span> <span class="token function">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">var</span> jason<span class="token punctuation">:</span> <span class="token builtin">UnivStudent</span> <span class="token operator">=</span> <span class="token function">UnivStudent</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">var</span> result<span class="token punctuation">:</span> <span class="token builtin">Bool</span>
+
+result <span class="token operator">=</span> me <span class="token keyword">is</span> <span class="token builtin">Person</span> <span class="token comment">// true</span>
+result <span class="token operator">=</span> me <span class="token keyword">is</span> <span class="token builtin">Student</span> <span class="token comment">// false</span>
+result <span class="token operator">=</span> me <span class="token keyword">is</span> <span class="token builtin">UnivStudent</span> <span class="token comment">// false</span>
+
+result <span class="token operator">=</span> hana <span class="token keyword">is</span> <span class="token builtin">Person</span> <span class="token comment">// true</span>
+result <span class="token operator">=</span> hana <span class="token keyword">is</span> <span class="token builtin">Student</span> <span class="token comment">// true</span>
+result <span class="token operator">=</span> hana <span class="token keyword">is</span> <span class="token builtin">UnivStudent</span> <span class="token comment">// false</span>
+
+result <span class="token operator">=</span> jason <span class="token keyword">is</span> <span class="token builtin">Person</span> <span class="token comment">// true</span>
+result <span class="token operator">=</span> jason <span class="token keyword">is</span> <span class="token builtin">Student</span> <span class="token comment">// true</span>
+result <span class="token operator">=</span> jason <span class="token keyword">is</span> <span class="token builtin">UnivStudent</span> <span class="token comment">// true</span>
+</code></pre></div><h3 id="업캐스팅"><a href="#업캐스팅" class="header-anchor">#</a> 업캐스팅</h3> <ul><li><code>as</code> 를 사용하여 부모클래스의 인스턴스로 사용할 수 있도록 컴파일러에게 타입정보를 전환해줌</li> <li><code>Any</code>, <code>AnyObject</code>로도 타입정보를 변환할 수 있음</li> <li>암시적으로 처리되므로 생략가능</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">var</span> mike<span class="token punctuation">:</span> <span class="token builtin">Person</span> <span class="token operator">=</span> <span class="token function">UnivStudent</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token builtin">Person</span>
+<span class="token keyword">var</span> jenny<span class="token punctuation">:</span> <span class="token builtin">Student</span> <span class="token operator">=</span> <span class="token function">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">var</span> jina<span class="token punctuation">:</span> <span class="token builtin">Any</span> <span class="token operator">=</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="다운캐스팅"><a href="#다운캐스팅" class="header-anchor">#</a> 다운캐스팅</h3> <ul><li>자식 클래스의 인스턴스로 사용할 수 있도록 타입정보 전화</li> <li><code>as?</code> 조건부 다운 캐스팅</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">var</span> optionalCasted<span class="token punctuation">:</span> <span class="token builtin">Student</span><span class="token operator">?</span>
+
+optionalCasted <span class="token operator">=</span> mike <span class="token keyword">as</span><span class="token operator">?</span> <span class="token builtin">UnivStudent</span> 
+optionalCasted <span class="token operator">=</span> jenny <span class="token keyword">as</span><span class="token operator">?</span> <span class="token builtin">UnivStudent</span> <span class="token comment">// nil</span>
+optionalCasted <span class="token operator">=</span> jina <span class="token keyword">as</span><span class="token operator">?</span> <span class="token builtin">UnivStudent</span> <span class="token comment">// nil</span>
+optionalCasted <span class="token operator">=</span> jina <span class="token keyword">as</span><span class="token operator">?</span> <span class="token builtin">Student</span> <span class="token comment">// nil</span>
+</code></pre></div><ul><li><code>as!</code> 강제 다운 캐스팅</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">var</span> forcedCasted<span class="token punctuation">:</span> <span class="token builtin">Student</span>
+
+forcedCasted <span class="token operator">=</span> mike <span class="token keyword">as</span><span class="token operator">!</span> <span class="token builtin">UnivStudent</span>
+forcedCasted <span class="token operator">=</span> jenny <span class="token keyword">as</span><span class="token operator">?</span> <span class="token builtin">UnivStudent</span> <span class="token comment">// error</span>
+forcedCasted <span class="token operator">=</span> jina <span class="token keyword">as</span><span class="token operator">?</span> <span class="token builtin">UnivStudent</span> <span class="token comment">// error</span>
+forcedCasted <span class="token operator">=</span> jina <span class="token keyword">as</span><span class="token operator">?</span> <span class="token builtin">Student</span> <span class="token comment">// erro</span>
+</code></pre></div><h2 id="assert와-guard"><a href="#assert와-guard" class="header-anchor">#</a> assert와 guard</h2> <p>애플리케이션이 동작 도중에 생성하는 다양한 결과값을 동적으로 확인하고 안전하게 처리할 수 있도록 도와줌</p> <h3 id="assertion"><a href="#assertion" class="header-anchor">#</a> assertion</h3> <ul><li><code>assert(_: _: file : line: )</code> 함수를 사용</li> <li>디버깅 모드에서만 동작</li> <li>배포하는 애플리케이션에서는 제외됨</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">var</span> someInt<span class="token punctuation">:</span> <span class="token builtin">Int</span> <span class="token operator">=</span> <span class="token number">0</span>
+
+<span class="token function">assert</span><span class="token punctuation">(</span>someInt <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token string">&quot;someInt != 0&quot;</span><span class="token punctuation">)</span>
+
+someInt <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token comment">// 동작 중지, 검증 실패</span>
+<span class="token comment">// assertion failed: someInt != 0: ...</span>
+</code></pre></div><h3 id="early-exit"><a href="#early-exit" class="header-anchor">#</a> Early Exit</h3> <ul><li><code>guard</code> 를 사용하여 잘못된 값의 전달 시 특정 실행구문을 빠르게 종료</li> <li>디버깅모드 뿐만 아니라 어떤 조건에서도 동작</li> <li><code>else</code> 블록에는 종료 지시어가 반드시 있어야 함</li> <li>옵셔널과 함께 많이 쓰인다.</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">func</span> <span class="token function">functionWithGuard</span><span class="token punctuation">(</span>age<span class="token punctuation">:</span> <span class="token builtin">Int</span><span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">guard</span> <span class="token keyword">let</span> unwrappedAge <span class="token operator">=</span> age<span class="token punctuation">,</span>
+  	unwrappedAge <span class="token operator">&lt;</span> <span class="token number">130</span><span class="token punctuation">,</span> unwrappedAge <span class="token operator">&gt;=</span><span class="token number">0</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;나이값 입력이 잘못되었습니다&quot;</span><span class="token punctuation">)</span>
+      <span class="token keyword">return</span> 
+    <span class="token punctuation">}</span>
+  
+  <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;당신의 나이는 <span class="token interpolation"><span class="token delimiter variable">\(</span>unwrappedAge<span class="token delimiter variable">)</span></span>세 입니다&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>##프로토콜</p> <ul><li>프로토콜은 특정 역할을 수행하기 위한 메서드, 프로퍼티, 이니셜라이저 등의 요구사항을 정의</li> <li>구조체, 클래스, 열거형은 프로토콜을 채택해서 프로토콜의 요구사항을 실제로 구현할 수 있음</li> <li>자바의 인터페이스 느낌인듯..</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">protocol</span> 이름 <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>상속도 가능. 다중상속 가능</li> <li><code>is</code> , <code>as</code> 키워드 사용 가능</li></ul> <h2 id="익스텐션"><a href="#익스텐션" class="header-anchor">#</a> 익스텐션</h2> <ul><li>여러타입에 새로운 기능을 추가할 수 있는 기능</li> <li>연산 프로퍼티, 타입 메서드, 이니셜라이저, 서브스크립트, 중첩타입, 특정 프로토콜 등을 추가 가능</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">extension</span> 확장할 타입 <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">extension</span> 확장할 타입 <span class="token punctuation">:</span> 프로토콜<span class="token number">1</span><span class="token punctuation">,</span> 프로토콜<span class="token number">2</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="오류처리"><a href="#오류처리" class="header-anchor">#</a> 오류처리</h2> <p>오류표현 방법은 Error 프로토콜과 열거형을 통해서 오류를 표현</p> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">enum</span> 오류종류이름<span class="token punctuation">:</span> <span class="token builtin">Error</span> <span class="token punctuation">{</span>
+  <span class="token keyword">case</span> 종류<span class="token number">1</span>
+  <span class="token keyword">case</span> 종류<span class="token number">2</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li><p>오류가 발생할 가능성이 있는 부분에 <code>throw</code> 키워드를 추가</p></li> <li><p><code>try</code> 를 사용하여 호출</p> <ul><li>Do-catch</li></ul> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">do</span> <span class="token punctuation">{</span> 
+  <span class="token keyword">try</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token builtin">Error</span><span class="token punctuation">.</span>xxx <span class="token punctuation">{</span>
+  
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li><code>try?</code> : 별도의 오류결과를 받지 않고 <code>nil</code>로 받음</li> <li><code>try!</code> : 오류가 발생하지 않을 것이라는 확신을 가질 때 사용. 오류발생하면 런타임 오류 발생</li></ul></li></ul> <h2 id="고차함수"><a href="#고차함수" class="header-anchor">#</a> 고차함수</h2> <p>전달인자로 함수를 받거나 함수실행의 결과를 함수로 반환하는 함수</p> <h3 id="map"><a href="#map" class="header-anchor">#</a> map</h3> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">var</span> numbers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token builtin">Int</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+<span class="token keyword">var</span> doubledNumbers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token builtin">Int</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token builtin">Int</span><span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+doubledNumbers <span class="token operator">=</span> numbers<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token punctuation">(</span>number<span class="token punctuation">:</span> <span class="token builtin">Int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">Int</span> <span class="token keyword">in</span>
+   <span class="token keyword">return</span> number<span class="token operator">*</span><span class="token number">2</span>                         
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+<span class="token function">print</span><span class="token punctuation">(</span>doubledNumbers<span class="token punctuation">)</span> <span class="token comment">// [0,2,4,6,8]</span>
+</code></pre></div><h3 id="filter"><a href="#filter" class="header-anchor">#</a> filter</h3> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">let</span> evenNumbers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token builtin">Int</span><span class="token punctuation">]</span> <span class="token operator">=</span> numbers<span class="token punctuation">.</span><span class="token builtin">filter</span><span class="token punctuation">{</span>
+  <span class="token punctuation">(</span>number<span class="token punctuation">:</span> <span class="token builtin">Int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">Bool</span> <span class="token keyword">in</span>
+  <span class="token keyword">return</span> number <span class="token operator">%</span><span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> oddNumbers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token builtin">Int</span><span class="token punctuation">]</span> <span class="token operator">=</span> numbers<span class="token punctuation">.</span><span class="token builtin">filter</span><span class="token punctuation">{</span>
+  $<span class="token number">0</span> <span class="token operator">%</span><span class="token number">2</span> <span class="token operator">!=</span> <span class="token number">0</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>조건에 맞는 값들을 걸러내어 새로운 배열로 반환. 상수로 바로 받을 수도 있음</p> <h3 id="reduce"><a href="#reduce" class="header-anchor">#</a> reduce</h3> <div class="language-swift extra-class"><pre class="language-swift"><code><span class="token keyword">let</span> someNumbers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token builtin">Int</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">15</span><span class="token punctuation">]</span>
+
+<span class="token keyword">let</span> sum<span class="token punctuation">:</span> <span class="token builtin">Int</span> <span class="token operator">=</span> someNumbers<span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">(</span><span class="token builtin">first</span><span class="token punctuation">:</span> <span class="token builtin">Int</span><span class="token punctuation">,</span> second<span class="token punctuation">:</span> <span class="token builtin">Int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">Int</span> <span class="token keyword">in</span>
+  <span class="token keyword">return</span> <span class="token builtin">first</span> <span class="token operator">+</span> second
+<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token comment">// 초기값이 0</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/TIL/til/contents/swift/basicSyntax2.html" class="prev">
+        Swift basic syntax2
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/TIL/assets/js/app.2712e491.js" defer></script><script src="/TIL/assets/js/2.c9de64f5.js" defer></script><script src="/TIL/assets/js/88.379f6009.js" defer></script>
+  </body>
+</html>
